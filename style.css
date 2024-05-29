@@ -1,0 +1,27 @@
+.row{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(237, 180, 174);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+.col{
+    flex: 1;
+}
+
+.col-2{
+    flex:2;
+}
+
+.col-3{
+    flex-grow: 3;
+}
+
+div{
+    background-color: rgb(207, 164, 222);
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid rgb(235, 17, 213);
+}
